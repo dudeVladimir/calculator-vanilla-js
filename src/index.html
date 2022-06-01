@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Калькулятор</title>
+  </head>
+  <body>
+    <button class="btn history" id="history-btn">История</button>
+    <div id="backdrop" class="hide"></div>
+    <div id="history-block" class="close">
+      <h2 id="empty">История пуста</h2>
+    </div>
+    <div class="app">
+      <h1>Калькулятор</h1>
+      <div class="calc">
+        <div class="calc__function">
+          <input type="text" placeholder="Функция..." id="input-fn" />
+        </div>
+        <div class="calc__btn-block" id="btn-block">
+          <div class="calc__btn-block_number" id="number">
+            <button class="btn">C</button>
+            <button class="btn">()</button>
+            <button class="btn">%</button>
+
+            <button class="btn number">1</button>
+            <button class="btn number">2</button>
+            <button class="btn number">3</button>
+            <button class="btn number">4</button>
+            <button class="btn number">5</button>
+            <button class="btn number">6</button>
+            <button class="btn number">7</button>
+            <button class="btn number">8</button>
+            <button class="btn number">9</button>
+            <button class="btn number" id="zero">0</button>
+            <button class="btn number">.</button>
+          </div>
+          <div class="calc__btn-block_simple-function" id="simple-function">
+            <button class="btn fn">/</button>
+            <button class="btn fn">*</button>
+            <button class="btn fn">-</button>
+            <button class="btn fn">+</button>
+            <button class="btn fn">=</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
